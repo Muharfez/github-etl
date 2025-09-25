@@ -1,19 +1,24 @@
-import os
-import yaml
-from dotenv import load_dotenv
+from util.config_loader import load_config
+from etl.extract import Extractor
+from etl.transform import Transformer
+from etl.load import Loader
 
-from etl.extract import extract
-from etl.transform import transform
 
-# Load env
-load_dotenv()
+def main():
+    config = load_config()
 
-# Load config
-with open("config/config.yaml") as f:
-    config = yaml.safe_load(f)
+    # Extract 
+    extractor = Extractor()
+    data = extractor.extract(config["extract"])
 
-token = os.getenv("GITHUB_TOKEN")
-query = config["query"]
+    # Transform
+    transformer = Transformer()
+    transformedData = transformer.transform(data)
 
-data = extract(query=query, token=token)
-data = transform(data)
+    # Load
+    loader = Loader()
+    loader.load(transformedData, config["load"])
+
+
+if __name__ == "__main__":
+    main()

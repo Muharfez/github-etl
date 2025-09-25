@@ -1,6 +1,6 @@
 import logging
 
-class AppLogger:
+class Logger:
     _instance = None
 
     def __new__(cls):
@@ -14,7 +14,7 @@ class AppLogger:
                 ch = logging.StreamHandler()
                 ch.setLevel(logging.INFO)
                 
-                fh = logging.FileHandler("application.log")
+                fh = logging.FileHandler("application.log", mode='w')
                 fh.setLevel(logging.DEBUG)
 
                 formatter = logging.Formatter(

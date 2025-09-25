@@ -1,0 +1,184 @@
+2025-09-25 22:03:11 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100
+2025-09-25 22:03:14 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
+2025-09-25 22:03:17 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=3
+2025-09-25 22:03:20 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=4
+2025-09-25 22:03:23 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=5
+2025-09-25 22:03:27 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=6
+2025-09-25 22:03:30 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=7
+2025-09-25 22:13:46 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100
+2025-09-25 22:13:50 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
+2025-09-25 22:48:14 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100
+2025-09-25 22:48:17 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
+2025-09-25 22:48:20 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=3
+2025-09-25 22:48:23 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=4
+2025-09-25 22:48:26 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=5
+2025-09-25 22:48:29 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=6
+2025-09-25 22:48:33 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=7
+2025-09-25 22:48:36 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=8
+2025-09-25 22:48:39 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=9
+2025-09-25 22:48:42 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=10
+2025-09-25 22:48:47 - ERROR - Error saving to S3: 'DataFrame' object has no attribute 'df'
+2025-09-25 22:49:48 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100
+2025-09-25 22:49:52 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
+2025-09-25 22:49:54 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=3
+2025-09-25 22:49:57 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=4
+2025-09-25 22:50:00 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=5
+2025-09-25 22:50:04 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=6
+2025-09-25 22:50:07 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=7
+2025-09-25 22:50:10 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=8
+2025-09-25 22:50:14 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=9
+2025-09-25 22:50:17 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=10
+2025-09-25 22:50:21 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2019/data.json
+2025-09-25 22:50:21 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2021/data.json
+2025-09-25 22:50:21 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2022/data.json
+2025-09-25 22:50:21 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2023/data.json
+2025-09-25 22:50:21 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2024/data.json
+2025-09-25 22:50:22 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2015/data.json
+2025-09-25 22:50:22 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2016/data.json
+2025-09-25 22:50:22 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2018/data.json
+2025-09-25 22:50:22 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2019/data.json
+2025-09-25 22:50:22 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2020/data.json
+2025-09-25 22:50:22 - INFO - Saved 6 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2021/data.json
+2025-09-25 22:50:22 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2022/data.json
+2025-09-25 22:50:22 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2023/data.json
+2025-09-25 22:50:22 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2024/data.json
+2025-09-25 22:50:23 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2025/data.json
+2025-09-25 22:50:23 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2012/data.json
+2025-09-25 22:50:23 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2013/data.json
+2025-09-25 22:50:23 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Java/year=2016/data.json
+2025-09-25 22:50:23 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2017/data.json
+2025-09-25 22:50:23 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2018/data.json
+2025-09-25 22:50:23 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Java/year=2019/data.json
+2025-09-25 22:50:23 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2021/data.json
+2025-09-25 22:50:23 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2022/data.json
+2025-09-25 22:50:23 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2023/data.json
+2025-09-25 22:50:24 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2025/data.json
+2025-09-25 22:50:24 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2014/data.json
+2025-09-25 22:50:24 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2015/data.json
+2025-09-25 22:50:24 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2016/data.json
+2025-09-25 22:50:24 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2018/data.json
+2025-09-25 22:50:24 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2019/data.json
+2025-09-25 22:50:24 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2021/data.json
+2025-09-25 22:50:24 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2023/data.json
+2025-09-25 22:50:24 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2024/data.json
+2025-09-25 22:50:24 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2015/data.json
+2025-09-25 22:50:25 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2016/data.json
+2025-09-25 22:50:25 - INFO - Saved 13 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2017/data.json
+2025-09-25 22:50:25 - INFO - Saved 16 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2018/data.json
+2025-09-25 22:50:25 - INFO - Saved 61 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2019/data.json
+2025-09-25 22:50:25 - INFO - Saved 38 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2020/data.json
+2025-09-25 22:50:25 - INFO - Saved 37 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2021/data.json
+2025-09-25 22:50:25 - INFO - Saved 55 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2022/data.json
+2025-09-25 22:50:25 - INFO - Saved 54 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2023/data.json
+2025-09-25 22:50:25 - INFO - Saved 33 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2024/data.json
+2025-09-25 22:50:25 - INFO - Saved 17 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2025/data.json
+2025-09-25 22:50:26 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Python/year=2013/data.json
+2025-09-25 22:50:26 - INFO - Saved 9 records to s3://s3-github-etl-bucket/repos/language=Python/year=2015/data.json
+2025-09-25 22:50:26 - INFO - Saved 7 records to s3://s3-github-etl-bucket/repos/language=Python/year=2016/data.json
+2025-09-25 22:50:26 - INFO - Saved 9 records to s3://s3-github-etl-bucket/repos/language=Python/year=2017/data.json
+2025-09-25 22:50:26 - INFO - Saved 13 records to s3://s3-github-etl-bucket/repos/language=Python/year=2018/data.json
+2025-09-25 22:50:26 - INFO - Saved 36 records to s3://s3-github-etl-bucket/repos/language=Python/year=2019/data.json
+2025-09-25 22:50:26 - INFO - Saved 28 records to s3://s3-github-etl-bucket/repos/language=Python/year=2020/data.json
+2025-09-25 22:50:26 - INFO - Saved 28 records to s3://s3-github-etl-bucket/repos/language=Python/year=2021/data.json
+2025-09-25 22:50:26 - INFO - Saved 41 records to s3://s3-github-etl-bucket/repos/language=Python/year=2022/data.json
+2025-09-25 22:50:26 - INFO - Saved 76 records to s3://s3-github-etl-bucket/repos/language=Python/year=2023/data.json
+2025-09-25 22:50:27 - INFO - Saved 29 records to s3://s3-github-etl-bucket/repos/language=Python/year=2024/data.json
+2025-09-25 22:50:27 - INFO - Saved 20 records to s3://s3-github-etl-bucket/repos/language=Python/year=2025/data.json
+2025-09-25 22:50:27 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2015/data.json
+2025-09-25 22:50:27 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2016/data.json
+2025-09-25 22:50:27 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2018/data.json
+2025-09-25 22:50:27 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2020/data.json
+2025-09-25 22:50:27 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2021/data.json
+2025-09-25 22:50:27 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2022/data.json
+2025-09-25 22:50:27 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2023/data.json
+2025-09-25 22:50:27 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2015/data.json
+2025-09-25 22:50:27 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2017/data.json
+2025-09-25 22:50:28 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2018/data.json
+2025-09-25 22:50:28 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2019/data.json
+2025-09-25 22:50:28 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2020/data.json
+2025-09-25 22:50:28 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2021/data.json
+2025-09-25 22:50:28 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2022/data.json
+2025-09-25 22:50:28 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2023/data.json
+2025-09-25 22:50:28 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2024/data.json
+2025-09-25 23:01:05 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100
+2025-09-25 23:01:08 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
+2025-09-25 23:01:11 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=3
+2025-09-25 23:01:14 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=4
+2025-09-25 23:01:18 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=5
+2025-09-25 23:01:21 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=6
+2025-09-25 23:01:25 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=7
+2025-09-25 23:01:28 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=8
+2025-09-25 23:01:31 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=9
+2025-09-25 23:01:35 - INFO - Requesting the following url https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=10
+2025-09-25 23:01:40 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2019/data.json
+2025-09-25 23:01:40 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2021/data.json
+2025-09-25 23:01:40 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2022/data.json
+2025-09-25 23:01:40 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2023/data.json
+2025-09-25 23:01:40 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Dockerfile/year=2024/data.json
+2025-09-25 23:01:40 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2015/data.json
+2025-09-25 23:01:40 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2016/data.json
+2025-09-25 23:01:40 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2018/data.json
+2025-09-25 23:01:41 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2019/data.json
+2025-09-25 23:01:41 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2020/data.json
+2025-09-25 23:01:41 - INFO - Saved 6 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2021/data.json
+2025-09-25 23:01:41 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2022/data.json
+2025-09-25 23:01:41 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2023/data.json
+2025-09-25 23:01:41 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2024/data.json
+2025-09-25 23:01:41 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=HTML/year=2025/data.json
+2025-09-25 23:01:41 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2012/data.json
+2025-09-25 23:01:41 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2013/data.json
+2025-09-25 23:01:41 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Java/year=2016/data.json
+2025-09-25 23:01:42 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2017/data.json
+2025-09-25 23:01:42 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2018/data.json
+2025-09-25 23:01:42 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Java/year=2019/data.json
+2025-09-25 23:01:42 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Java/year=2021/data.json
+2025-09-25 23:01:42 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2022/data.json
+2025-09-25 23:01:42 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2023/data.json
+2025-09-25 23:01:42 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Java/year=2025/data.json
+2025-09-25 23:01:42 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2014/data.json
+2025-09-25 23:01:42 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2015/data.json
+2025-09-25 23:01:42 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2016/data.json
+2025-09-25 23:01:43 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2018/data.json
+2025-09-25 23:01:43 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2019/data.json
+2025-09-25 23:01:43 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2021/data.json
+2025-09-25 23:01:43 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2023/data.json
+2025-09-25 23:01:43 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=JavaScript/year=2024/data.json
+2025-09-25 23:01:43 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2015/data.json
+2025-09-25 23:01:43 - INFO - Saved 5 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2016/data.json
+2025-09-25 23:01:43 - INFO - Saved 13 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2017/data.json
+2025-09-25 23:01:43 - INFO - Saved 16 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2018/data.json
+2025-09-25 23:01:43 - INFO - Saved 61 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2019/data.json
+2025-09-25 23:01:44 - INFO - Saved 38 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2020/data.json
+2025-09-25 23:01:44 - INFO - Saved 37 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2021/data.json
+2025-09-25 23:01:44 - INFO - Saved 55 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2022/data.json
+2025-09-25 23:01:44 - INFO - Saved 54 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2023/data.json
+2025-09-25 23:01:44 - INFO - Saved 33 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2024/data.json
+2025-09-25 23:01:44 - INFO - Saved 17 records to s3://s3-github-etl-bucket/repos/language=Jupyter Notebook/year=2025/data.json
+2025-09-25 23:01:44 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Python/year=2013/data.json
+2025-09-25 23:01:44 - INFO - Saved 9 records to s3://s3-github-etl-bucket/repos/language=Python/year=2015/data.json
+2025-09-25 23:01:44 - INFO - Saved 7 records to s3://s3-github-etl-bucket/repos/language=Python/year=2016/data.json
+2025-09-25 23:01:45 - INFO - Saved 9 records to s3://s3-github-etl-bucket/repos/language=Python/year=2017/data.json
+2025-09-25 23:01:45 - INFO - Saved 13 records to s3://s3-github-etl-bucket/repos/language=Python/year=2018/data.json
+2025-09-25 23:01:45 - INFO - Saved 36 records to s3://s3-github-etl-bucket/repos/language=Python/year=2019/data.json
+2025-09-25 23:01:45 - INFO - Saved 28 records to s3://s3-github-etl-bucket/repos/language=Python/year=2020/data.json
+2025-09-25 23:01:45 - INFO - Saved 28 records to s3://s3-github-etl-bucket/repos/language=Python/year=2021/data.json
+2025-09-25 23:01:45 - INFO - Saved 41 records to s3://s3-github-etl-bucket/repos/language=Python/year=2022/data.json
+2025-09-25 23:01:45 - INFO - Saved 76 records to s3://s3-github-etl-bucket/repos/language=Python/year=2023/data.json
+2025-09-25 23:01:45 - INFO - Saved 29 records to s3://s3-github-etl-bucket/repos/language=Python/year=2024/data.json
+2025-09-25 23:01:45 - INFO - Saved 20 records to s3://s3-github-etl-bucket/repos/language=Python/year=2025/data.json
+2025-09-25 23:01:45 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2015/data.json
+2025-09-25 23:01:46 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2016/data.json
+2025-09-25 23:01:46 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2018/data.json
+2025-09-25 23:01:46 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2020/data.json
+2025-09-25 23:01:46 - INFO - Saved 4 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2021/data.json
+2025-09-25 23:01:46 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2022/data.json
+2025-09-25 23:01:46 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Scala/year=2023/data.json
+2025-09-25 23:01:46 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2015/data.json
+2025-09-25 23:01:46 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2017/data.json
+2025-09-25 23:01:46 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2018/data.json
+2025-09-25 23:01:46 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2019/data.json
+2025-09-25 23:01:47 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2020/data.json
+2025-09-25 23:01:47 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2021/data.json
+2025-09-25 23:01:47 - INFO - Saved 2 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2022/data.json
+2025-09-25 23:01:47 - INFO - Saved 3 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2023/data.json
+2025-09-25 23:01:47 - INFO - Saved 1 records to s3://s3-github-etl-bucket/repos/language=Shell/year=2024/data.json

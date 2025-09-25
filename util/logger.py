@@ -11,9 +11,6 @@ class Logger:
             logger.setLevel(logging.DEBUG)
 
             if not logger.handlers:
-                ch = logging.StreamHandler()
-                ch.setLevel(logging.INFO)
-                
                 fh = logging.FileHandler("application.log", mode='w')
                 fh.setLevel(logging.DEBUG)
 
@@ -22,10 +19,7 @@ class Logger:
                     "%Y-%m-%d %H:%M:%S"
                 )
                 
-                ch.setFormatter(formatter)
                 fh.setFormatter(formatter)
-
-                logger.addHandler(ch)
                 logger.addHandler(fh)
 
             cls._instance.logger = logger

@@ -12,9 +12,9 @@ class Extractor:
 
         url = "https://api.github.com/search/repositories"
         page = 1
-        pageSize = 100
+        pages_size = self.config["page_size"]
 
-        parameters = {"q" : self.config["query"], "per_page" : pageSize, "page" : page}
+        parameters = {"q" : self.config["query"], "per_page" : pages_size, "page" : page}
         headers = {"Authorization" : f'token {self.config["github_token"]}'} if "github_token" in self.config else  {}
 
         try:

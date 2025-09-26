@@ -12,6 +12,7 @@ def load_config():
     return {
         "extract" : {
             "query": config["query"],
+            "page_size": config["page_size"],
             "github_token": os.getenv("GITHUB_TOKEN"),
         },
         "load": {

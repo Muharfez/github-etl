@@ -1,15 +1,14 @@
 from util.config_loader import load_config
-from etl.extract import Extractor
-from etl.transform import Transformer
-from etl.load import Loader
+from etl.extractor import Extractor
+from etl.transformer import Transformer
+from etl.loader import Loader
 
 
 def main():
     config = load_config()
-
     # Extract 
-    extractor = Extractor()
-    data = extractor.extract(config["extract"])
+    extractor = Extractor(config["extract"])
+    data = extractor.extract()
 
     # Transform
     transformer = Transformer()
@@ -18,7 +17,6 @@ def main():
     # Load
     loader = Loader()
     loader.load(transformedData, config["load"])
-
 
 if __name__ == "__main__":
     main()

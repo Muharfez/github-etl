@@ -1,6 +1,7 @@
 from util.config_loader import load_config
 from etl.extractor import Extractor
 from etl.transformer import Transformer
+from etl.quality_report_generator import QualityReportGenerator
 from etl.loader import Loader
 
 
@@ -12,11 +13,15 @@ def main():
 
     # Transform
     transformer = Transformer()
-    transformedData = transformer.transform(data)
+    transformed_data = transformer.transform(data)
+
+    # Quality report
+    quality_report_generator = QualityReportGenerator()
+    quality_report = quality_report_generator.generate_report(df=transformed_data)
 
     # Load
-    loader = Loader()
-    loader.load(transformedData, config["load"])
+    loader = Loader(config["load"])
+    loader.load(df=transformed_data, quality_report=quality_report)
 
 if __name__ == "__main__":
     main()

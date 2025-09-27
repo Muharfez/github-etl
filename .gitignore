@@ -9,10 +9,10 @@ __pycache__/
 venv/
 
 # Environment variables
-.env
+#.env
 
 # Configs
-config.yaml
+#config.yaml
 
 # IDE files
 .vscode/

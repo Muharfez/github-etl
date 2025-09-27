@@ -7,7 +7,7 @@ This project is a simple ETL pipeline that extracts GitHub repository data, tran
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/etl-github.git
+git clone https://github.com/Muharfez/github-etl.git
 cd etl-github
 ```
 It is recommended to use a virtual environment:
@@ -26,9 +26,4 @@ pip install -r requirements.txt
 
 ## Configuration
 
-config/config.yaml
-The config.yaml contains pipeline-specific settings
 
-.env
-
-The .env file stores sensitive credentials for the github-api and the s3-bucket

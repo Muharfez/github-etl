@@ -47,8 +47,6 @@ page_size: 50               # Number of repos per page (GitHub API max is 100)
 s3:
   bucket: "your-bucket-name" # Target S3 bucket name
 ```
-For info on how to construct a search query: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
-
 
 ### 2. `.env`
 
@@ -60,8 +58,8 @@ AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_DEFAULT_REGION=your_aws_region
 ```
-Note: The GITHUB_TOKEN is not needed for the script to run, however, the Github API will be resitrected by thje rate limit for requests without Authorization. For more info: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
-
+Note: The GITHUB_TOKEN is not equired for the script to run. However, the GitHub API would be resitrected by the rate limit for unauthorized requests without one. For more info: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
+For info on how to construct a search query: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
 Create these 2 files in your project and configure them with your pipeline parameters/credentials.   
 
 ### Running the script

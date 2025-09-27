@@ -6,7 +6,7 @@ class ConfigError(Exception):
     pass
 
 class ConfigLoader():
-    def load_config():
+    def load_config(self):
         load_dotenv()
         path="config/config.yaml"
 
@@ -26,7 +26,7 @@ class ConfigLoader():
         for key in required_keys:
             if key not in config:
                 raise ConfigError(f"Missing required config key: '{key}'")
-            if key == "s3" & "bucket" not in config["s3"]:
+            if key == "s3" and "bucket" not in config["s3"]:
                 raise ConfigError("Missing required key: 's3.bucket' in config.yaml")
 
         # Validate required environment variables 

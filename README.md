@@ -1,6 +1,6 @@
 # ARC Challange - ETL Pipeline - GitHub Repositories
 
-This project is a simple ETL pipeline that extracts GitHub repository data, transforms it, and loads it into JSON files on S3. The pipeline demonstrates clean code, logging, error handling, and basic unit testing.
+This project is a simple ETL pipeline that extracts GitHub repository data, transforms it, and loads it into JSON files on S3.
 
 ## Project Setup
 
@@ -8,7 +8,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Muharfez/github-etl.git
-cd etl-github
+cd github-etl
 ```
 It is recommended to use a virtual environment:
 ```bash
@@ -33,8 +33,8 @@ This project uses **two configuration files**:
 - **`config/config.yaml`** → contains **pipeline parameters**  
 
 This separation is intentional:  
-- `.env` is machine-specific and holds sensitive values like API keys.  
-- `config.yaml` is project-wide and defines how the pipeline should behave.  
+- `.env` holds sensitive values like API keys.  
+- `config.yaml` defines how the pipeline should behave.  
 
 ### 1. `config/config.yaml`
 
@@ -42,14 +42,14 @@ This file contains **pipeline settings** that control the ETL behavior:
 
 ```yaml
 query: "Data Engineering"   # Search term for GitHub repositories- For info on how to construct a search query: 
-page_size: 50               # Number of repos per page (GitHub API max is 100)
+page_size: 50               # Number of repos per page
 s3:
   bucket: "your-bucket-name" # Target S3 bucket name
 ```
 
 ### 2. `.env`
 
-This file contains **pipeline settings** that control the ETL behavior:
+This file contains **sensitive credentials** needed for authentication:
 
 ```env
 GITHUB_TOKEN=your_github_token
@@ -58,7 +58,7 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_DEFAULT_REGION=your_aws_region
 ``` 
 
-Create these 2 files in your project and configure them with your pipeline parameters/credentials.
+Create these 2 files in your project and configure them with your pipeline settings/credentials.
 
 ---
 

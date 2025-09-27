@@ -1,4 +1,3 @@
-unittest
 pandas
 pyyaml
 python-dotenv

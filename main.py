@@ -40,8 +40,8 @@ def main():
 
     # Load
     logger.get_logger().info("Starting load")
-    # loader = Loader(config["load"])
-    # loader.load(df=transformed_data, quality_report=quality_report)
+    loader = Loader(config["load"])
+    loader.load(df=transformed_data, quality_report=quality_report)
     logger.get_logger().info("Load finished")
 
 if __name__ == "__main__":

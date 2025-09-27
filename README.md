@@ -23,6 +23,7 @@ Install required Python libraries:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ## Configuration
 
@@ -34,8 +35,6 @@ This project uses **two configuration files**:
 This separation is intentional:  
 - `.env` is machine-specific and holds sensitive values like API keys.  
 - `config.yaml` is project-wide and defines how the pipeline should behave.  
-
----
 
 ### 1. `config/config.yaml`
 
@@ -57,10 +56,11 @@ GITHUB_TOKEN=your_github_token
 AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_DEFAULT_REGION=your_aws_region
-```
-Note: The GITHUB_TOKEN is not equired for the script to run. However, the GitHub API would be resitrected by the rate limit for unauthorized requests without one. For more info: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
-For info on how to construct a search query: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
-Create these 2 files in your project and configure them with your pipeline parameters/credentials.   
+``` 
+
+Create these 2 files in your project and configure them with your pipeline parameters/credentials.
+
+---
 
 ### Running the script
 Run the main script:
@@ -68,6 +68,8 @@ Run the main script:
 python main.py
 ```
 Logs are stored in application.log and also printed to the console.
+
+---
 
 ### Running Unit Tests
 Unit tests are stored in the tests/ directory. To run all tests:
@@ -79,6 +81,9 @@ Or run a specific test file:
 python -m unittest tests/test_transformer.py
 ```
 
+---
+
 ### Notes
-Ensure your .env and config/config.yaml are correctly set up before running the pipeline.
-The pipeline will stop gracefully if required configurations or credentials are missing.
+- Ensure your .env and config/config.yaml are correctly set up before running the pipeline.
+- The pipeline will stop gracefully if required configurations or credentials are missing.
+- The GITHUB_TOKEN is optional, but without it, the GitHub API is subject to strict rate limits for unauthenticated requests. For more information on rate limits and guidance on constructing search queries, refer to the GitHub API documentation

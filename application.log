@@ -1,7 +1,0 @@
-2025-09-27 12:42:49 - INFO - Requesting the following url: https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=1
-2025-09-27 12:42:49 - INFO - Requesting the following url: https://api.github.com/search/repositories?q=Data+Engineering&per_page=100&page=2
-2025-09-27 12:42:49 - INFO - 3 repos extracted.
-2025-09-27 12:42:49 - INFO - 1 repos where language=None excluded
-2025-09-27 12:42:49 - INFO - 1 repos excluded: language group size < 10. Only languages with at least 10 repos are retained.
-2025-09-27 12:42:49 - INFO - 1 repos where language=None excluded
-2025-09-27 12:42:49 - INFO - 1 repos excluded: language group size < 10. Only languages with at least 10 repos are retained.

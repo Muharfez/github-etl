@@ -16,3 +16,6 @@ config.yaml
 
 # IDE files
 .vscode/
+
+# Logs
+*.log

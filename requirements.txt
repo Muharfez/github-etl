@@ -1,0 +1,6 @@
+unittest
+pandas
+pyyaml
+python-dotenv
+requests
+boto3

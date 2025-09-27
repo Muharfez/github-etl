@@ -6,7 +6,8 @@ class TestExtractor(unittest.TestCase):
     def setUp(self):
         config = {
             "query": "Data Engineering",
-            "github_token": "fake_token"
+            "github_token": "fake_token",
+            "page_size": 100
         }
         self.extractor = Extractor(config=config)
 

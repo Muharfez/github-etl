@@ -21,8 +21,8 @@ class Extractor:
             while True:
                     parameters["page"] = page
                     nextLink = f"{url}?{urlencode(parameters)}"     
-                    self.logger.info(f"Requesting the following url {nextLink}")
-
+                    self.logger.info(f"Requesting the following url: {nextLink}")
+        
                     response = requests.get(url=nextLink, headers=headers, timeout=20)
                     response.raise_for_status()
 
@@ -32,9 +32,8 @@ class Extractor:
                         break
                     page += 1
 
-            self.logger.info(f"{len(data)} data rows extracted.")
-
         except Exception as e:
             self.logger.error(f"Extract ran into the following error: {e}")
-                 
+
+        self.logger.info(f"{len(data)} repos extracted.")         
         return data

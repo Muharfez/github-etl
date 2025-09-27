@@ -13,14 +13,18 @@ class Transformer:
             df = df[["full_name", "language", "stargazers_count", "forks_count", "created_at", "updated_at"]]
             
             # Filter rows with no langauage
+            row_count = len(df)
             df = df[(df.language.notna())]
-
-            # Filter languages with >=10 repos
-            lang_counts = df.groupby("language")["language"].transform("size")
-            df = df[lang_counts >= 10]
+            self.logger.info(f"{row_count - len(df)} repos excluded: language is None")
 
             # Unify language
             df["language"] = df["language"].str.lower()
+
+            # Filter languages with >=10 repos
+            row_count = len(df)
+            lang_counts = df.groupby("language")["language"].transform("size")
+            df = df[lang_counts >= 10]
+            self.logger.info(f"{row_count - len(df)} repos excluded: language group size < 10. Only languages with at least 10 repos are retained.")
 
             # Convert timestamps
             df["created_at"] = pd.to_datetime(df["created_at"])

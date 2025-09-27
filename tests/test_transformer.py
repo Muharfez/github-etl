@@ -21,7 +21,7 @@ class TestTransformer(unittest.TestCase):
 
     def test_transform_filters_languages(self):
         df = self.transformer.transform(self.mock_data)
-        self.assertTrue(all(df["language"] == "Python"))
+        self.assertTrue(all(df["language"] == "python"))
 
 if __name__ == "__main__":
     unittest.main()

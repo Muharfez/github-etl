@@ -28,8 +28,8 @@ pip install -r requirements.txt
 
 This project uses **two configuration files**:
 
-- **`.env`** → contains **secrets and credentials** (never commit this to GitHub)  
-- **`config/config.yaml`** → contains **pipeline parameters** (safe to commit)  
+- **`.env`** → contains **secrets and credentials**  
+- **`config/config.yaml`** → contains **pipeline parameters**  
 
 This separation is intentional:  
 - `.env` is machine-specific and holds sensitive values like API keys.  
@@ -42,11 +42,13 @@ This separation is intentional:
 This file contains **pipeline settings** that control the ETL behavior:
 
 ```yaml
-query: "Data Engineering"   # Search term for GitHub repositories
+query: "Data Engineering"   # Search term for GitHub repositories- For info on how to construct a search query: 
 page_size: 50               # Number of repos per page (GitHub API max is 100)
 s3:
   bucket: "your-bucket-name" # Target S3 bucket name
 ```
+For info on how to construct a search query: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
+
 
 ### 2. `.env`
 
@@ -57,4 +59,28 @@ GITHUB_TOKEN=your_github_token
 AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_DEFAULT_REGION=your_aws_region
+```
+Note: The GITHUB_TOKEN is not needed for the script to run, however, the Github API will be resitrected by thje rate limit for requests without Authorization. For more info: https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#constructing-a-search-query
 
+Create these 2 files in your project and configure them with your pipeline parameters/credentials.   
+
+### Running the script
+Run the main script:
+```bash
+python main.py
+```
+Logs are stored in application.log and also printed to the console.
+
+### Running Unit Tests
+Unit tests are stored in the tests/ directory. To run all tests:
+```bash
+python -m unittest discover tests
+```
+Or run a specific test file:
+```bash
+python -m unittest tests/test_transformer.py
+```
+
+### Notes
+Ensure your .env and config/config.yaml are correctly set up before running the pipeline.
+The pipeline will stop gracefully if required configurations or credentials are missing.

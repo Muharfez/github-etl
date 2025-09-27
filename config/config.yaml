@@ -1,4 +1,0 @@
-query: "query"
-page_size : 20
-s3:
-  bucket: bucket-name

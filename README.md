@@ -1,4 +1,4 @@
-# ARC Challange - ETL Pipeline - GitHub Repositories
+# ARC Challenge - ETL Pipeline - GitHub Repositories
 
 This project is a simple ETL pipeline that extracts GitHub repository data, transforms it, and loads it into JSON files on S3.
 
